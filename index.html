@@ -14,21 +14,28 @@
 
   <!-- Header Section -->
   <div class="header">
-    <div class="header__logo-box">
-      <img srcset="public/images/mountain--small.jpg 680w",
-           srcset="public/images/mountain--medium.jpg 1399w",
-           srcset="public/images/mountain--large.jpg 1582w",
-           src="public/images/mountain--smaller.jpg" alt="mountain" class="header-image">
-      <div class="header__text-box l-center">
-        <h1 class="heading-primary">
-              <span class="heading-primary--main">Generic Website Hero</span>
-              <span class="heading-primary--sub">Where imagination meets engineering</span>
-            </h1>
 
-        <a href="#" class="button button--large header-button">Learn more</a>
-      </div>
+  </div>
+
+  <!-- Hero-section -->
+  <div class="header__logo-box">
+    <picture>
+      <source srcset="public/images/mountain--large.jpg 1582w">
+        <source srcset="public/images/mountain--medium.jpg 1399w">
+          <source srcset="public/images/mountain--small/jpg 680w">
+            <img srcset="public/images/mountain--smaller.jpg 474w" alt="mountain with clouds" class="hero-image"> 
+    </picture>
+
+    <div class="header__text-box l-center">
+      <h1 class="heading-primary">
+            <span class="heading-primary--main">Generic Website Hero</span>
+            <span class="heading-primary--sub">Where imagination meets engineering</span>
+          </h1>
+
+      <a href="#" class="button button--large header-button">Learn more</a>
     </div>
   </div>
+
   <!-- Section Features -->
 
   <div class="section-features">
