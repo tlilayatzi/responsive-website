@@ -13,52 +13,51 @@
 <body>
 
   <!-- Header Section -->
-  <div class="header">
+  <!-- <div class="header">
 
-  </div>
+  </div> -->
 
   <!-- Hero-section -->
-  <div class="header__logo-box">
-    <picture>
-      <source srcset="public/images/mountain--large.jpg 1582w">
-        <source srcset="public/images/mountain--medium.jpg 1399w">
-          <source srcset="public/images/mountain--small/jpg 680w">
-            <img srcset="public/images/mountain--smaller.jpg 474w" alt="mountain with clouds" class="hero-image"> 
-    </picture>
+  <div class="hero__logo-box">
+    <img src="public/images/mountain--small.jpg 680w" width="680" alt="mountain with clouds" , srcset="public/images/mountain--medium.jpg 1399w" , srcset="public/images/mountain--large.jpg 1582w" sizes="(max-width: 1399px) 100vw" class="hero__image">
 
-    <div class="header__text-box l-center">
-      <h1 class="heading-primary">
-            <span class="heading-primary--main">Generic Website Hero</span>
-            <span class="heading-primary--sub">Where imagination meets engineering</span>
-          </h1>
+    <div class="hero__text-box l-center">
+      <h1 class="hero-primary">
+        <span class="hero-primary--main">Generic Website Hero</span>
+        <span class="hero-primary--sub">Where imagination meets engineering</span>
+      </h1>
 
-      <a href="#" class="button button--large header-button">Learn more</a>
+      <div class="button__container">
+        <a href="#" class="button button--large hero-button">Learn more</a>
+      </div>
     </div>
   </div>
 
   <!-- Section Features -->
 
-  <div class="section-features">
-    <div class="l-container l-grid">
-      <div class="col">
-        <div class="feature-box">
-          <i class="fa fa-laptop"></i>
-          <h3 class="heading-tertiary">Heading Level 3</h3>
-          <p class="paragraph">icon title description</p>
+  <div class="feature">
+    <div class="l-container">
+      <div class="l-grid">
+        <div class="col-1-of-3">
+          <div class="feature-box">
+            <i class="fa fa-laptop feature-icon"></i>
+            <h3 class="heading-tertiary">Heading Level 3</h3>
+            <p class="paragraph">icon title description</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="feature-box">
-          <i class="fa fa-code"></i>
-          <h3 class="heading-tertiary">Heading Level 3</h3>
-          <p class="paragraph">icon title description</p>
+        <div class="col-1-of-3">
+          <div class="feature-box">
+            <i class="fa fa-code feature-icon"></i>
+            <h3 class="heading-tertiary">Heading Level 3</h3>
+            <p class="paragraph">icon title description</p>
+          </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="feature-box">
-          <i class="fa fa-image"></i>
-          <h3 class="heading-tertiary">Heading Level 3</h3>
-          <p class="paragraph">icon title description</p>
+        <div class="col-1-of-3">
+          <div class="feature-box">
+            <i class="fa fa-image feature-icon"></i>
+            <h3 class="heading-tertiary">Heading Level 3</h3>
+            <p class="paragraph">icon title description</p>
+          </div>
         </div>
       </div>
     </div>
@@ -66,78 +65,145 @@
 
   <!-- Story-feature -->
   <div class="story-feature">
-    <div class="l-container l-grid">
-      <div class="col">
-        <h1 class="heading-primary">Heading Level 1</h1>
+    <div class="l-container">
+      <div class="l-grid">
+        <div class="col-1-of-2">
+          <h1 class="heading-primary">Heading Level 1</h1>
+        </div>
+        <div class="col-1-of-2">
+          <p class="paragraph">
+            Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+            praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan
+            interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt
+            felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+            <br>
+            <br> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
+            ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+            Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
+            praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
+            <br>
+          </p>
+          <div class="button__container">
+            <a href="#" class="button button--small">Learn More</a>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <p class="paragraph">
-          Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
-          praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum
-          nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis
-          sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-          <br> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
-          ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec
-          accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent
-          tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-        </p>
-      </div>
-      <a href="button button--large">Learn More</a>
     </div>
   </div>
 
   <!-- Projects -->
   <div class="project-section">
-    <div class="project__text-box">
-      <h2 class="header-secondary">Personal Projects</h2>
-    </div>
-    <div class="l-container l-grid">
-      <div class="col">
-        <div class="project__image"></div>
-      </div>
-      <div class="col">
+    <div class="l-container">
+      <div class="l-grid">
         <div class="project__text-box">
-          <h4 class="heading-quaternary"></h4>
-          <p class="paragraph"></p>
+          <h2 class="header-secondary">Personal Projects</h2>
         </div>
-      </div>
-    </div>
-    <div class="l-container l-grid">
-      <div class="col">
-        <div class="project__image-box"></div>
-      </div>
-      <div class="col">
-        <div class="project__text-box">
-          <h4 class="heading-quaternary"></h4>
-          <p class="paragraph"></p>
+        <div class="l-grid">
+          <div class="col-1-of-2">
+            <div class="project__image-box">
+              <picture>
+                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
+                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
+                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
+                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
+              </picture>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="project__text-box">
+              <h4 class="heading-quaternary">Heading Level 4</h4>
+              <p class="paragraph">
+                This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and work with Javascript.
+                This is not the best website as of yet, but I am very satisfied with the feel of the page.
+              </p>
+            </div>
+            <div class="button__container">
+              <a href="" class="button button--small">View Project</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="l-container l-grid">
-      <div class="col">
-        <div class="project__image-box"></div>
-      </div>
-      <div class="col">
-        <div class="project__text-box">
-          <h4 class="heading-quaternary"></h4>
-          <p class="paragraph"></p>
+        <div class="l-grid">
+          <div class="col-1-of-2">
+            <div class="project__image-box">
+              <picture>
+                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
+                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
+                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
+                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
+              </picture>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="project__text-box">
+              <h4 class="heading-quaternary">Heading Level 4</h4>
+              <p class="paragraph"> This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and
+                work with Javascript. This is not the best website as of yet, but I am very satisfied with the feel of the page.
+              </p>
+            </div>
+            <div class="button__container">
+              <a href="" class="button button--small button--outline">View Project</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="l-container l-grid">
-      <div class="col">
-        <div class="project__image=box"></div>
-      </div>
-      <div class="col">
-        <div class="project__text-box">
-          <h4 class="heading-quaternary"></h4>
-          <p class="paragraph"></p>
+        <div class="l-grid">
+          <div class="col-1-of-2">
+            <div class="project__image-box">
+              <picture>
+                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
+                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
+                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
+                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
+              </picture>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="project__text-box">
+              <h4 class="heading-quaternary">Heading Level 4</h4>
+              <p class="paragraph">
+                This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and work with Javascript.
+                This is not the best website as of yet, but I am very satisfied with the feel of the page.
+              </p>
+            </div>
+            <div class="button__container">
+              <a href="" class="button button--small">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="l-grid">
+          <div class="col-1-of-2">
+            <div class="project__image=box">
+              <picture>
+                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
+                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
+                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
+                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
+              </picture>
+            </div>
+          </div>
+          <div class="col-1-of-2">
+            <div class="project__text-box">
+              <h4 class="heading-quaternary">Heading Level 4</h4>
+              <p class="paragraph">
+                This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and work with Javascript.
+                This is not the best website as of yet, but I am very satisfied with the feel of the page.
+              </p>
+            </div>
+            <div class="button__container">
+              <a href="" class="button button--small">View Project</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
-
+  <!-- CTA -->
+  <div class="cta">
+    <div class="container l-center">
+      <h1 class="cta-primary">Lets Work Together</h1>
+      <p clas="cta-paragraph">If you like my work and are looking to hire me, send me an email.</p>
+    </div>
+  </div>
   <!-- CV-Section -->
   <div class="cv-section">
 
@@ -145,7 +211,26 @@
 
   <!-- footer -->
   <div class="footer">
-
+    <div class="footer__copyright l-center">
+      <h5 class="header-quinary">Copyright Juan Tlilayatzi 2018 All rights reserved</h5>
+    </div>
+    <div class="l-container">
+      <div class="f-social__icon">
+        <div class="feature-box">
+          <i class="fab fa-google-plus-g"></i>
+        </div>
+      </div>
+      <div class="f-social__icon">
+        <div class="feature-box">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+      <div class="f-social__icon">
+        <div class="feature-box">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
