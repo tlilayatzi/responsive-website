@@ -19,14 +19,19 @@
 
   <!-- Hero-section -->
   <div class="hero__logo-box">
-    <img src="public/images/mountain--small.jpg 680w" width="680" alt="mountain with clouds" , srcset="public/images/mountain--medium.jpg 1399w" , srcset="public/images/mountain--large.jpg 1582w" sizes="(max-width: 1399px) 100vw" class="hero__image">
+
+    <div class="hero__image-container">
+      <img srcset="public/images/hero--medium_uqvodm_c_scale,w_940.jpg 940w,
+                  public/images/hero--large_uqvodm_c_scale,w_1499.jpg 1499w"
+            sizes="(max-width: 640px) 100vw, 940px (max-width: 1201px) 50vw, 1499px"
+           src="public/images/hero--small_uqvodm_c_scale.jpg" alt="mountain-landscape">
+    </div>
 
     <div class="hero__text-box l-center">
       <h1 class="hero-primary">
-        <span class="hero-primary--main">Generic Website Hero</span>
-        <span class="hero-primary--sub">Where imagination meets engineering</span>
+        <span class="hero-primary--main">Juan Tlilayatzi</span>
+        <span class="hero-primary--sub">Web Developer / Mechanical Engineer</span>
       </h1>
-
       <div class="button__container">
         <a href="#" class="button button--large hero-button">Learn more</a>
       </div>
@@ -38,21 +43,21 @@
   <div class="feature">
     <div class="l-container">
       <div class="l-grid">
-        <div class="col-1-of-3">
+        <div class="col-4-of-12">
           <div class="feature-box">
             <i class="fa fa-laptop feature-icon"></i>
             <h3 class="heading-tertiary">Heading Level 3</h3>
             <p class="paragraph">icon title description</p>
           </div>
         </div>
-        <div class="col-1-of-3">
+        <div class="col-4-of-12">
           <div class="feature-box">
             <i class="fa fa-code feature-icon"></i>
             <h3 class="heading-tertiary">Heading Level 3</h3>
             <p class="paragraph">icon title description</p>
           </div>
         </div>
-        <div class="col-1-of-3">
+        <div class="col-4-of-12">
           <div class="feature-box">
             <i class="fa fa-image feature-icon"></i>
             <h3 class="heading-tertiary">Heading Level 3</h3>
@@ -63,173 +68,138 @@
     </div>
   </div>
 
+
   <!-- Story-feature -->
   <div class="story-feature">
-    <div class="l-container">
+    <div class="l-container story__content-box">
       <div class="l-grid">
-        <div class="col-1-of-2">
-          <h1 class="heading-primary">Heading Level 1</h1>
+        <div class="col-6-of-12">
+          <h4 class="heading-quaternary">Heading level 4</h4>
+          <h1 class="heading-primary">
+              Heading Level 1
+              <br>
+              This is where Extra Content will go
+              <br>
+              More content will go here.
+              <br>
+            </h1>
         </div>
-        <div class="col-1-of-2">
+        <div class="col-6-of-12">
           <p class="paragraph">
             Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
             praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan
             interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt
             felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
             <br>
-            <br> Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer
-            ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-            Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
-            praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-            <br>
           </p>
           <div class="button__container">
-            <a href="#" class="button button--small">Learn More</a>
+            <a href="#" class="button button--small button--white">Learn More</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+
+
   <!-- Projects -->
   <div class="project-section">
     <div class="l-container">
-      <div class="l-grid">
-        <div class="project__text-box">
-          <h2 class="header-secondary">Personal Projects</h2>
+      <div class="project__text-box">
+        <h2 class="heading-secondary">Personal Projects</h2>
+      </div>
+
+
+      <div class="rightside__ref p-row">
+        <div class="rightside__image p-col col-7-of-12 ">
+          <img src="public/images/mountain-two--small.jpg"
+               alt="mountain-landscape" class="img-rel">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
+              alt="mountain-landscape" class="img-abs">
         </div>
-        <div class="l-grid">
-          <div class="col-1-of-2">
-            <div class="project__image-box">
-              <picture>
-                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
-                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
-                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
-                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
-              </picture>
-            </div>
-          </div>
-          <div class="col-1-of-2">
-            <div class="project__text-box">
-              <h4 class="heading-quaternary">Heading Level 4</h4>
-              <p class="paragraph">
-                This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and work with Javascript.
-                This is not the best website as of yet, but I am very satisfied with the feel of the page.
-              </p>
-            </div>
-            <div class="button__container">
-              <a href="" class="button button--small">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="l-grid">
-          <div class="col-1-of-2">
-            <div class="project__image-box">
-              <picture>
-                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
-                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
-                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
-                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
-              </picture>
-            </div>
-          </div>
-          <div class="col-1-of-2">
-            <div class="project__text-box">
-              <h4 class="heading-quaternary">Heading Level 4</h4>
-              <p class="paragraph"> This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and
-                work with Javascript. This is not the best website as of yet, but I am very satisfied with the feel of the page.
-              </p>
-            </div>
-            <div class="button__container">
-              <a href="" class="button button--small button--outline">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="l-grid">
-          <div class="col-1-of-2">
-            <div class="project__image-box">
-              <picture>
-                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
-                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
-                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
-                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
-              </picture>
-            </div>
-          </div>
-          <div class="col-1-of-2">
-            <div class="project__text-box">
-              <h4 class="heading-quaternary">Heading Level 4</h4>
-              <p class="paragraph">
-                This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and work with Javascript.
-                This is not the best website as of yet, but I am very satisfied with the feel of the page.
-              </p>
-            </div>
-            <div class="button__container">
-              <a href="" class="button button--small">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="l-grid">
-          <div class="col-1-of-2">
-            <div class="project__image=box">
-              <picture>
-                <source srcset="public/images/building-one--large.jpg 1582w" media="(min-width: 1399px)">
-                <source srcset="public/images/building-one--medium.jpg 1399w" media="(min-width: 680px)">
-                <source srcset="public/images/building-one--small.jpg 680w" media="(min-width: 480px)">
-                <img srcset="public/images/building-one--smaller.jpg 474w" media="(min-width: 480px)" alt="builind landscape">
-              </picture>
-            </div>
-          </div>
-          <div class="col-1-of-2">
-            <div class="project__text-box">
-              <h4 class="heading-quaternary">Heading Level 4</h4>
-              <p class="paragraph">
-                This is one of the first projects that I designed. I have developed other sites but never felt satisfied with the results. This website allowed me work with a style guide which would allow me to structure my content using SASS and BEM and work with Javascript.
-                This is not the best website as of yet, but I am very satisfied with the feel of the page.
-              </p>
-            </div>
-            <div class="button__container">
-              <a href="" class="button button--small">View Project</a>
-            </div>
-          </div>
+        <div class="middlecol p-col col-1-of-12"></div>
+        <div class="rightside__workdesc p-col col-4-of-12">
+          <h4 class="heading-quaternary">Heading level 4</h4>
+          <p class="paragraph">
+            In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
+            to some other page. Still can't decide what that second link will do.
+          </p>
         </div>
       </div>
+
+
+      <div class="leftside__ref p-row">
+        <div class="leftside__workdesc p-col col-4-of-12">
+          <h4 class="heading-quaternary">Heading level 4</h4>
+          <p class="paragraph">
+            In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
+            to some other page. Still can't decide what that second link will do.
+          </p>
+        </div>
+        <div class="middlecol p-col col-1-of-12"></div>
+        <div class="leftside__image p-col col-7-of-12 ">
+          <img src="public/images/mountain-two--small.jpg"
+               alt="mountain-landscape" class="img-rel img-right">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
+               alt="mountain-landscape" class="img-abs-two">
+        </div>
+      </div>
+
+
+      <div class="rightside__ref p-row">
+        <div class="rightside__image p-col col-7-of-12 ">
+          <img src="public/images/mountain-two--small.jpg"
+               alt="mountain-landscape" class="img-rel">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
+               alt="mountain-landscape" class="img-abs">
+        </div>
+        <div class="middlecol p-col col-1-of-12"></div>
+        <div class="rightside__workdesc p-col col-4-of-12">
+          <h4 class="heading-quaternary">Heading level 4</h4>
+          <p class="paragraph">
+            In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
+            to some other page. Still can't decide what that second link will do.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="leftside__ref p-row">
+        <div class="leftside__workdesc p-col col-4-of-12">
+          <h4 class="heading-quaternary">Heading level 4</h4>
+          <p class="paragraph">
+            In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
+            to some other page. Still can't decide what that second link will do.
+          </p>
+        </div>
+        <div class="middlecol p-col col-1-of-12"></div>
+        <div class="leftside__image p-col col-7-of-12 ">
+          <img src="public/images/mountain-two--small.jpg"
+               alt="mountain-landscape" class="img-rel img-right">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
+               alt="mountain-landscape" class="img-abs-two">
+        </div>
+      </div>
+
+
     </div>
   </div>
 
   <!-- CTA -->
   <div class="cta">
-    <div class="container l-center">
+    <div class="l-container l-center">
       <h1 class="cta-primary">Lets Work Together</h1>
-      <p clas="cta-paragraph">If you like my work and are looking to hire me, send me an email.</p>
+      <p class="cta-paragraph">If you like my work and are looking to hire me, send me an email.</p>
+      <div class="button__container">
+        <a href="#" class=" button button--large button--riptide">Lets get in touch</a>
+      </div>
     </div>
-  </div>
-  <!-- CV-Section -->
-  <div class="cv-section">
-
   </div>
 
   <!-- footer -->
   <div class="footer">
     <div class="footer__copyright l-center">
       <h5 class="header-quinary">Copyright Juan Tlilayatzi 2018 All rights reserved</h5>
-    </div>
-    <div class="l-container">
-      <div class="f-social__icon">
-        <div class="feature-box">
-          <i class="fab fa-google-plus-g"></i>
-        </div>
-      </div>
-      <div class="f-social__icon">
-        <div class="feature-box">
-          <i class="fab fa-github"></i>
-        </div>
-      </div>
-      <div class="f-social__icon">
-        <div class="feature-box">
-          <i class="fab fa-facebook-f"></i>
-        </div>
-      </div>
     </div>
   </div>
 </body>
