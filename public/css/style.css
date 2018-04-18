@@ -51,12 +51,6 @@ html {
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  @media only screen and (min-width: 801px) {
-    html {
-      font-size: 56.25%; } }
-  @media only screen and (max-width: 600px) {
-    html {
-      font-size: 50%; } }
   @media only screen and (min-width: 1025px) {
     html {
       font-size: 75%; } }
@@ -175,25 +169,17 @@ img {
   background: -webkit-gradient(linear, left top, right bottom, from(#1CD8D2), to(#93EDC7));
   background: linear-gradient(to bottom right, #1CD8D2, #93EDC7); }
 
-.hero-button {
-  color: #ffffff; }
-
 .hero-primary {
   color: #ffffff;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  margin-bottom: 6rem; }
+          backface-visibility: hidden; }
   .hero-primary--main {
     display: block;
-    font-size: 2rem;
     font-weight: 400;
-    letter-spacing: 0.5rem;
     -webkit-animation: moveInLeft 1s ease-out;
             animation: moveInLeft 1s ease-out; }
   .hero-primary--sub {
     display: block;
-    letter-spacing: 0.2rem;
-    font-size: 1.5rem;
     font-weight: 700;
     -webkit-animation: moveInRight 1s ease-out;
             animation: moveInRight 1s ease-out; }
@@ -296,12 +282,12 @@ img {
 .button--large {
   display: inline-block;
   padding: 1.5em 3.6em;
-  border: 0.2em solid #83D3C9; }
+  border: 0.2em solid #1CD8D2; }
 
 .button--small {
   background: transparent;
   padding: 0.75em 1.8em;
-  border: 0.1em solid #83D3C9; }
+  border: 0.1em solid #1CD8D2; }
 
 .button--white {
   display: inline-block;
@@ -309,16 +295,22 @@ img {
   color: #ffffff; }
 
 .button--riptide {
-  color: #83D3C9; }
+  color: #1CD8D2; }
+
+.hero-button {
+  color: #ffffff;
+  border: 0.2em solid #ffffff; }
 
 .header-button {
   color: #ffffff; }
 
 /*DESKTOP MEDIA QUERY*/
 @media only screen and (min-width: 1025px) {
-  .hero-primary--main {
-    font-size: 6rem;
-    letter-spacing: 3.5rem; }
+  .hero-primary {
+    margin-bottom: 6rem; }
+    .hero-primary--main {
+      font-size: 6rem;
+      letter-spacing: 3.5rem; }
   .l-container {
     display: block;
     padding-left: 0.9375rem;
@@ -375,7 +367,16 @@ img {
             box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); } }
 
 /*PHONE PORTRAIT MEDIA QUERY*/
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .hero-primary {
+    margin-bottom: 3rem; }
+    .hero-primary--main {
+      font-size: 2.9rem;
+      letter-spacing: 0.4rem;
+      margin-bottom: 0.8rem; }
+    .hero-primary--sub {
+      letter-spacing: 0.2rem;
+      font-size: 1.3rem; }
   .heading-primary {
     font-size: 2.5rem; }
   .heading-secondary {
@@ -393,8 +394,8 @@ img {
   .story__content-box {
     padding: 0; }
   .paragraph {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
     margin-bottom: 1.5rem; }
   .cta-primary {
     font-size: 2.5rem; }
@@ -402,30 +403,15 @@ img {
     font-size: 1.2rem;
     line-height: 1.6rem;
     margin-bottom: 1.5rem; }
+  .rightside__ref,
+  .leftside__ref {
+    margin-bottom: 2.5rem;
+    text-align: center; }
   .img-rel {
     display: none; } }
 
-/*TABLET LANDSCAPE MEDIA QUERY*/
-@media only screen and (min-width: 801px) {
-  .hero__logo-box {
-    position: relative; }
-  .hero__container {
-    padding: 35rem 15rem;
-    max-width: 100%;
-    height: auto;
-    background: -webkit-gradient(linear, left top, right bottom, from(#1CD8D2), to(#93EDC7));
-    background: linear-gradient(to bottom right, #1CD8D2, #93EDC7); }
-  .hero__text-box {
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    position: absolute;
-    padding: 6.5rem 3rem;
-    width: 93%; } }
-
 /*TABLET PORTRAIT MEDIA QUERY*/
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 801px) {
   .heading-primary {
     font-size: 4rem; }
   .heading-secondary {
@@ -446,4 +432,6 @@ img {
     background: -webkit-gradient(linear, left top, right bottom, from(#1CD8D2), to(#93EDC7));
     background: linear-gradient(to bottom right, #1CD8D2, #93EDC7); }
   .story__content-box {
-    padding: 0; } }
+    padding: 0; }
+  .img-rel {
+    display: none; } }
