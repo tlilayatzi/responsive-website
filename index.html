@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="public/css/normalize.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   <title>Responsive-Website</title>
 </head>
@@ -19,21 +20,15 @@
 
   <!-- Hero-section -->
   <div class="hero__logo-box">
-
-    <div class="hero__image-container">
-      <img srcset="public/images/hero--medium_uqvodm_c_scale,w_940.jpg 940w,
-                  public/images/hero--large_uqvodm_c_scale,w_1499.jpg 1499w"
-            sizes="(max-width: 640px) 100vw, 940px (max-width: 1201px) 50vw, 1499px"
-           src="public/images/hero--small_uqvodm_c_scale.jpg" alt="mountain-landscape">
-    </div>
-
-    <div class="hero__text-box l-center">
-      <h1 class="hero-primary">
-        <span class="hero-primary--main">Juan Tlilayatzi</span>
-        <span class="hero-primary--sub">Web Developer / Mechanical Engineer</span>
-      </h1>
-      <div class="button__container">
-        <a href="#" class="button button--large hero-button">Learn more</a>
+    <div class="hero__container">
+      <div class="hero__text-box l-center">
+        <h1 class="hero-primary">
+          <span class="hero-primary--main">Juan Tlilayatzi</span>
+          <span class="hero-primary--sub">Web Developer / Mechanical Engineer</span>
+        </h1>
+        <div class="button__container">
+          <a href="#" class="button button--large hero-button">Learn more</a>
+        </div>
       </div>
     </div>
   </div>
@@ -84,14 +79,19 @@
               <br>
             </h1>
         </div>
-        <div class="col-6-of-12">
+
+
+        <div class="middlecol p-col col-1-of-12"></div>
+
+        <div class="col-5-of-12">
+
           <p class="paragraph">
             Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque
             praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan
             interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt
             felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.
-            <br>
           </p>
+
           <div class="button__container">
             <a href="#" class="button button--small button--white">Learn More</a>
           </div>
@@ -112,10 +112,8 @@
 
       <div class="rightside__ref p-row">
         <div class="rightside__image p-col col-7-of-12 ">
-          <img src="public/images/mountain-two--small.jpg"
-               alt="mountain-landscape" class="img-rel">
-          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
-              alt="mountain-landscape" class="img-abs">
+          <img src="public/images/mountain-two--small.jpg" alt="mountain-landscape" class="img-rel">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg" alt="mountain-landscape" class="img-abs">
         </div>
         <div class="middlecol p-col col-1-of-12"></div>
         <div class="rightside__workdesc p-col col-4-of-12">
@@ -124,34 +122,36 @@
             In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
             to some other page. Still can't decide what that second link will do.
           </p>
+          <div class="button__container">
+            <a href="#" class="button button--large hero-button">Learn more</a>
+          </div>
         </div>
       </div>
 
 
       <div class="leftside__ref p-row">
+        <div class="leftside__image p-col col-7-of-12 ">
+          <img src="public/images/mountain-two--small.jpg" alt="mountain-landscape" class="img-rel img-right">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg" alt="mountain-landscape" class="img-abs-two">
+        </div>
+        <div class="middlecol p-col col-1-of-12"></div>
         <div class="leftside__workdesc p-col col-4-of-12">
           <h4 class="heading-quaternary">Heading level 4</h4>
           <p class="paragraph">
             In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
             to some other page. Still can't decide what that second link will do.
           </p>
-        </div>
-        <div class="middlecol p-col col-1-of-12"></div>
-        <div class="leftside__image p-col col-7-of-12 ">
-          <img src="public/images/mountain-two--small.jpg"
-               alt="mountain-landscape" class="img-rel img-right">
-          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
-               alt="mountain-landscape" class="img-abs-two">
+          <div class="button__container">
+            <a href="#" class="button button--large hero-button">Learn more</a>
+          </div>
         </div>
       </div>
 
 
       <div class="rightside__ref p-row">
         <div class="rightside__image p-col col-7-of-12 ">
-          <img src="public/images/mountain-two--small.jpg"
-               alt="mountain-landscape" class="img-rel">
-          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
-               alt="mountain-landscape" class="img-abs">
+          <img src="public/images/mountain-two--small.jpg" alt="mountain-landscape" class="img-rel">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg" alt="mountain-landscape" class="img-abs">
         </div>
         <div class="middlecol p-col col-1-of-12"></div>
         <div class="rightside__workdesc p-col col-4-of-12">
@@ -160,24 +160,28 @@
             In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
             to some other page. Still can't decide what that second link will do.
           </p>
+          <div class="button__container">
+            <a href="#" class="button button--large hero-button">Learn more</a>
+          </div>
         </div>
       </div>
 
 
       <div class="leftside__ref p-row">
+        <div class="leftside__image p-col col-7-of-12 ">
+          <img src="public/images/mountain-two--small.jpg" alt="mountain-landscape" class="img-rel img-right">
+          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg" alt="mountain-landscape" class="img-abs-two">
+        </div>
+        <div class="middlecol p-col col-1-of-12"></div>
         <div class="leftside__workdesc p-col col-4-of-12">
           <h4 class="heading-quaternary">Heading level 4</h4>
           <p class="paragraph">
             In this section of the column, a brief description of the project will be shown here as well as the purpose of the project and the outcome of that particular project. A link will be displayed to take the user to the live site. May add another link referencing
             to some other page. Still can't decide what that second link will do.
           </p>
-        </div>
-        <div class="middlecol p-col col-1-of-12"></div>
-        <div class="leftside__image p-col col-7-of-12 ">
-          <img src="public/images/mountain-two--small.jpg"
-               alt="mountain-landscape" class="img-rel img-right">
-          <img src="public/images/inggrid-koe-205694-unsplash_fupj7l_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
-               alt="mountain-landscape" class="img-abs-two">
+          <div class="button__container">
+            <a href="#" class="button button--large hero-button">Learn more</a>
+          </div>
         </div>
       </div>
 
